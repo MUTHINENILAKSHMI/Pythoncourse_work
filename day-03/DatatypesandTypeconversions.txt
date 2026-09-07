@@ -1,0 +1,123 @@
+Data Types:
+
+Numeric datatypes:
+==============================
+They are 3 types
+1.int 
+2.float
+3.complex
+-================
+Integer: it contains only digits
+ex: a=10
+Real time ex: Instagram likes ,followers and post count
+2. Float : It contains decimal points
+ex: a=1.2
+real time ex: price, CGPA
+3. Complex: It contains real and Imaginary terms
+Ex: a=1+2j 
+real time ex: in machine learning predication  purpose
+ 
+
+Sequencing Datatypes:
+=======================
+
+They are 3 types
+1. String
+2.List
+3. Tuple
+
+String : 
+===========
+  It is a collection of characters it enclose single quotes or double quotes
+  It is immutable, ordered, duplicates allowed #immutable we can't change within its obj references
+
+ List :
+============
+It is mutable ,list is ordered, list is heterogenous element, it is dynamically sized , we can modify it can allow duplicates
+#ex:instagram post
+
+# Tuple :
+================
+  Tuple is collection of elements enclosed with parentheses
+  It is immutable, ordered, duplicates allow, heterogenous, fixed size
+ex: in map 2d or 3D area is fixed
+
+# mapping data types
+=============================
+# set is collection of elements enclosed within flower braces
+set is mutable , set is heterogenous, set does not allow duplicates, set is unordered, set is dynamically
+
+#dictionary
+==================
+# it contains collection of key values pairs enclosed with in flower braces
+# it is mutable, dynamically, heterogenous, duplicates, ordered
+
+frozen set
+============
+frozen set is a 
+
+Boolean data types: 
+===================
+they are two values
+1.True 
+2.False
+None Data types: 
+==============
+It is empty
+
+
+Type Conversions:
+===============================
+It is used one datatype to another datatype
+
+Integer:
+========
+Integer converts float,str,bool and complex
+float:
+======
+ float converts  into int,str,bool,complex
+bool: 
+=====
+Bool converts  into int,float, str, complex
+string: 
+==========
+string converts into bool,list,tuple,set
+complex: 
+==========
+complex converts into str,bool
+list: 
+=========
+list converts into str,tuple,set,bool 
+tuple:
+======
+ tuple converts into bool,set,list str
+set:
+======set converts into bool,list,str,tuple
+dict:
+===========
+Dict converts into list,bool,tuple,set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
