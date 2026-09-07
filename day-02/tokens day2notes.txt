@@ -1,0 +1,146 @@
+day-2
+python installation
+==========================
+Python installation involves downloading Python from the official website, running the installer, selecting "Add Python to PATH", clicking "Install Now", and verifying the installation using the python --version command.
+
+
+What are Tokens in Python?
+============================
+
+Definition:
+A token is the smallest unit (basic building block) of a Python program.
+
+There are 5 types of tokens:
+---------------------------
+
+1. Identifiers
+
+Identifiers are names given to variables, functions, classes, or objects.
+
+Rules for Identifiers:
+===========================
+
+
+Example:
+
+name = "Lakshmi"
+age = 20
+
+Here, name and age are identifiers.
+
+2. Operators
+====================
+
+Operators are symbols used to perform operations.
+
+Example:
+
+a = 10
+b = 5
+print(a + b)
+
+Here, + is an operator.
+
+3. Literals
+===================
+
+Literals are fixed values written directly in a program.
+
+Example:
+
+name = "alexa"
+age = 5
+price = 99.5
+
+Here, "alexa", 5, and 99.5 are literals.
+
+4. Keywords
+============================
+
+Keywords are reserved words that have a special meaning in Python.
+
+Examples:
+if, else, for, while, def, class, True, False
+
+Example:
+
+if age >= 18:
+    print("Adult")
+
+Here, if is a keyword.
+
+5. Punctuators (Punctuation Symbols)
+=====================================
+
+Punctuators are symbols used to separate or organize the program.
+
+Examples: (), [], {}, :, ,, .
+
+Example:
+
+print("Hello")
+
+Here, ( and ) are punctuators. 
+
+for token example:
+n=10  # n (identifier) # = assignment operator #literal (10)
+if n%2==0: if (K) % is operator 
+print("even") #statement
+else: #keyword 
+print("odd") # statement  # ( puncuate)
+
+Why Do We Use Comments?
+==================================
+To explain the code.
+To make the program easy to understand.
+To help other programmers read the code.
+To temporarily disable a line of code during testing.
+Types of Comments
+1. Single-Line Comment
+
+A single-line comment starts with the # symbol.
+============================================
+
+Example:
+
+# This is a single-line comment
+print("Hello, World!")
+
+Output:
+
+Hello, World!
+2. Multi-Line Comment
+============================
+
+Multi-line comments are written using triple quotes (''' or """).
+
+Example:
+
+"""
+This is a
+multi-line comment.
+"""
+
+print("Welcome to Python")
+
+Output:
+
+Welcome to Python
+
+what is a Statement in Python?
+Definition
+
+A statement is a single instruction that tells the computer to perform a specific task.
+
+Simple Example
+print("Hello")
+
+This statement tells Python to display Hello on the screen.
+# swapping
+a,b=b,a
+## deleting
+a=10
+del a
+
+
+
