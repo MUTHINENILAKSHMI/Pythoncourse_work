@@ -1,0 +1,71 @@
+Object oriented programming:
+==========================================
+1. Class
+==========
+A class is a blueprint or template.
+Example: User is a class.
+It defines:
+Name
+Username
+Followers
+Posts
+
+2. Object
+================
+An object is a real instance of a class.
+Example:
+User 1: Rahul
+User 2: Priya
+Both are objects of the User class.
+User rahul = new User();
+User priya = new User();
+
+3. Encapsulation
+====================
+Encapsulation means keeping data safe by restricting direct access.
+Social Media Example: Your password is private. Nobody can directly change it. They must use methods like:
+setPassword()
+changePassword()
+Password → Private
+
+Methods:
+✓ changePassword()
+✓ verifyPassword()
+Benefit: Protects sensitive data.
+4. Inheritance
+=========================
+Inheritance allows one class to reuse properties and methods of another class.
+Example:
+User
+│
+├── NormalUser
+└── Creator
+Both inherit:
+Name
+Username
+Login
+But Creator also has:
+Upload Reel
+Monetization
+Benefit: Code reuse.
+5. Polymorphism
+=====================================
+Polymorphism means one  name, many forms.
+Example:
+All users have an uploadPost() method.
+Normal User → Uploads photo
+Creator → Uploads reel
+Business Account → Uploads advertisement
+Same method name, different behavior.
+6. Abstraction
+==================
+Abstraction means showing only essential details while hiding complex implementation.
+Example:
+When you click Like , you only see that the post is liked.
+You don't see:
+Database updates
+Server communication
+Notification logic
+These details are hidden.
+
+
