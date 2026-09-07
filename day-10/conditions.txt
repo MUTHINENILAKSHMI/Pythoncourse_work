@@ -1,0 +1,45 @@
+Control Statements: it is defined as excute the flow of the program.
+the are 3 types
+
+1.Conditional Statements -Makes decison making
+2. Looping statements- Iterarting statements
+3. Jumping statements-skip the value
+
+1. Conditional Statements:
+they qre 4 types
+1.simpleif
+2.if else
+3.elif ladder'
+4.nested if
+
+
+Simple if:
+==================
+if cond:
+    #statements
+
+2.if else:
+=======================
+if cond:
+    stmts
+else:
+    true.
+
+
+
+elif statements:
+================
+ if cond1:
+   statements
+elif cond2:
+     statements
+else(op):
+    statements
+
+nested if:
+==================
+if cond:
+    if cond1:
+        statements
+elif cond2:
+    statements
