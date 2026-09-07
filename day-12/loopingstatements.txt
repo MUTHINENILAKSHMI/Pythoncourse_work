@@ -1,0 +1,8 @@
+in looping statements we have for loop and while loop:
+for loop : use for known the iteration
+while loop : use for unknown the iterations.
+Jumping Statements:
+Break 
+Continue
+Break : It is used for termanting the sequence
+Continue : It is used for the skip the sequence
