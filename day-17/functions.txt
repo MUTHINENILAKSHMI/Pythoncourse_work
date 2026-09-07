@@ -1,0 +1,47 @@
+Functions:
+=========
+ Definition of Function: 
+ ---------------------
+A function is a named block of reusable code that performs a specific task.
+Instead of writing the same code multiple times, we can place it inside a function 
+and call the function whenever needed.
+Simple real-life example
+Think of a washing machine.
+You give clothes and select a program. The machine performs the task internally.
+
+2. Why Do We Use Functions?
+----------------------------
+Functions are used to:
+Reuse code – Write once and use many times.
+Reduce code repetition – Avoid writing the same logic again.
+Make programs organized – Divide a large program into smaller parts.
+Improve readability – Make code easier to understand.
+Make debugging easier – Errors can be found more easily.
+Improve maintainability – Changes can be made in one place.
+Program modularity - divided into smaller parts.
+
+#syntax for functions:
+=============================
+def functionname(arg):
+    #stmnts
+    retun (optional)
+call functionname(parameter)
+
+
+
+
+
+#They are four types of arguments:
+1.positional arguments
+2.keyword arguments
+3. default arguments
+4.variable length arguments
+===========================
+1.positional arguments: Based on the postion of argumets it should be assinged.
+2.keyword arguments: Arguments are passed using parameter names.
+The order of arguments does not matter.
+3.default arguments:A default value is assigned to a parameter.
+ If no value is passed during the function call, the default value is used.
+4.variable length arguments:Used when the number of positional arguments is unknown.
+Python stores all arguments inside a tuple.
+
