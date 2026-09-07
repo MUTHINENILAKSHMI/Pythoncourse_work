@@ -1,0 +1,137 @@
+What is Programming?
+====================================
+Programming is the process of giving instructions to a computer so it knows what to do.
+Just like people need instructions to complete a task, computers also need instructions. These instructions are called programs, and the person who writes them is called a programmer.
+
+why Python?
+========================
+Python is a popular programming language because it is simple and easy to learn. It has a clear syntax, so beginners can write and understand code quickly. Python is widely used for web development, data analysis, artificial intelligence (AI), automation, and software development. 
+
+History of python:
+=============================
+Python was developed by Guido van Rossum in 1989, and its first version was released in 1991. The name "Python" comes from the comedy show Monty Python's Flying Circus. It is a free, open-source, and easy-to-learn programming language, it is case sensitive.
+
+Features of Python 
+=============================
+Easy to Learn : Python has simple and readable syntax.
+  ---------------
+Interpreted Language : Code runs line by line, making it easy to test and debug.
+  ----------------------
+Object-Oriented : Supports classes and objects for better program organization.
+  ----------------
+Portable : Python programs can run on Windows, Linux, and macOS with little or no changes.
+  ----------
+Free and Open Source : Anyone can download and use Python without cost.
+----------------------
+Large Standard Library : Provides many built-in modules for common tasks.
+-----------------------
+Dynamically Typed : You do not need to declare variable types explicitly.
+------------------
+Versatile : Used for web development, AI, machine learning, data science, automation, and more.
+  -----------
+
+Applications of Python:
+=============================
+Web Development – Used to build websites and web applications.
+   Example: Online shopping websites.
+
+Artificial Intelligence (AI) – Used to develop AI and machine learning applications.
+   Example: Chatbots and recommendation systems.
+
+Data Science & Data Analysis – Used to analyze and visualize data.
+   Example: Sales and business reports.
+
+Automation – Used to automate repetitive tasks.
+   Example: Renaming multiple files automatically.
+
+Desktop Applications – Used to create desktop software.
+  Example: Calculator or Notepad applications.
+
+Game Development – Used to develop simple games.
+   Example: Puzzle and arcade games.
+
+Scientific Computing – Used for mathematical and scientific research.
+  Example: Weather forecasting and simulations.
+
+Cybersecurity – Used for security testing and network automation.
+  Example: Network scanning tools.
+
+Procedural Programming vs Object-Oriented Programming (OOP)
+===============================================================================
+1. Procedural Programming :Procedural programming is a way of writing programs using functions (procedures). The program is executed step by step.
+
+2. Object-Oriented Programming (OOP) : Object-oriented programming is a way of writing programs using objects. An object contains data (variables) and actions (methods) together.
+
+Simple Example:
+=====================
+Think of a Car.
+Data (Properties): Color, Brand, Speed
+Actions (Methods): Start, Stop, Drive
+The car is an object because it has both data and actions. 
+
+
+Object oriented programming:
+==========================================
+1. Class
+A class is a blueprint or template.
+Example: User is a class.
+It defines:
+Name
+Username
+Followers
+Posts
+
+2. Object
+An object is a real instance of a class.
+Example:
+User 1: Rahul
+User 2: Priya
+Both are objects of the User class.
+User rahul = new User();
+User priya = new User();
+
+3. Encapsulation
+Encapsulation means keeping data safe by restricting direct access.
+Social Media Example: Your password is private. Nobody can directly change it. They must use methods like:
+setPassword()
+changePassword()
+Password → Private
+
+Methods:
+✓ changePassword()
+✓ verifyPassword()
+Benefit: Protects sensitive data.
+4. Inheritance
+Inheritance allows one class to reuse properties and methods of another class.
+Example:
+User
+│
+├── NormalUser
+└── Creator
+Both inherit:
+Name
+Username
+Login
+But Creator also has:
+Upload Reel
+Monetization
+Benefit: Code reuse.
+5. Polymorphism
+Polymorphism means one method, many forms.
+Example:
+All users have an uploadPost() method.
+Normal User → Uploads photo
+Creator → Uploads reel
+Business Account → Uploads advertisement
+Same method name, different behavior.
+6. Abstraction
+Abstraction means showing only essential details while hiding complex implementation.
+Example:
+When you click Like , you only see that the post is liked.
+You don't see:
+Database updates
+Server communication
+Notification logic
+These details are hidden.
+
+
