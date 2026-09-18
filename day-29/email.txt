@@ -1,0 +1,7 @@
+smtp:simple mail transfer protocal
+os:dealing with files
+csv:comma sepration values stored the data i xcel sh
+mimem multipart: i have attcahment and body
+body email includes my body 
+miem:attaching the files
+enocoders:it is used for encoding bytes into files 
